@@ -6,13 +6,23 @@ Theory:
 
 In C++, basic data types (also called primitive or fundamental data types) are the building blocks of data manipulation. These types are predefined by the language and serve as the foundation for creating variables and performing operations.
 
-Type	               Description	                         Example Values
-int	            Integer numbers (no decimal)	               -3, 0, 42
-float	        Floating-point numbers (single precision)	    3.14, -0.001
-double	        Floating-point (double precision)	          2.71828, -100.0
-char	             Single character	                        'a', 'Z', '7'
-bool	            Boolean values	                           true, false
-void	        No value (used for functions with no return)	void function()
+| Type     | Description                      | Example             |
+| -------- | -------------------------------- | ------------------- |
+| `int`    | Integer values                   | `int x = 5;`        |
+| `float`  | Floating point (decimal numbers) | `float y = 5.6f;`   |
+| `double` | Double-precision floating point  | `double z = 6.28;`  |
+| `char`   | Single character                 | `char ch = 'A';`    |
+| `bool`   | Boolean (true/false)             | `bool flag = true;` |
+| `void`   | No value (used for functions)    | `void func();`      |
+
+| Type     | Typical Size | Range (on 32-bit systems)       |
+| -------- | ------------ | ------------------------------- |
+| `char`   | 1 byte       | -128 to 127                     |
+| `int`    | 4 bytes      | -2,147,483,648 to 2,147,483,647 |
+| `float`  | 4 bytes      | ±3.4e−38 to ±3.4e+38            |
+| `double` | 8 bytes      | ±1.7e−308 to ±1.7e+308          |
+| `bool`   | 1 byte       | `true` (1) or `false` (0)       |
+
 
 
 Conclusion:
