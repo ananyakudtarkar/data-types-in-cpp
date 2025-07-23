@@ -35,6 +35,7 @@ int main() {
 	return 0;
 }
 
+/*
 Output:
 Enter any integer: 0
 Integer = 0 and size is 4 bytes
@@ -48,3 +49,4 @@ Enter any letter: a
 Character = a and size is 1 bytes
 Enter any boolean value: true
 Boolean = 0 and size is 1 bytes
+*/
